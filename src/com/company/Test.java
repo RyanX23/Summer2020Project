@@ -1,13 +1,58 @@
 package com.company;
 
-public class Test {
-    public static void main(String [] args){
-        double numb1 = 100.0;
-        double numb2 = 5.5;
-        double numb3 = 3.4;
-        double numb4 = Math.getExponent(numb2);
-        double numb5 = Math.abs(numb1);
-        double numb6 = Math.sqrt(numb3);
-        System.out.printf("%8.3f \n %10.3f \n %10.3f", numb4, numb5, numb6);
+import java.util.Scanner;
+import java.lang.Math;
+
+public class Test  {
+    public static void main(String[] args) {
+
+            //create scanner
+            Scanner input = new Scanner(System.in);
+
+            //declare variables
+            double weight;
+            int feet;
+            int inches;
+
+            //prompt user
+            System.out.print("Enter weight in pounds: ");
+            weight = input.nextFloat();
+
+            System.out.print("Enter feet: ");
+            feet = input.nextInt();
+
+            System.out.print("Enter inches: ");
+            inches = input.nextInt();
+
+            //convert measurements
+            double weightInKilos = weight * 0.453592;
+            double heightInMeters = (((feet * 12) + inches) * .0254);
+            double bmi = weightInKilos / Math.pow(heightInMeters, 2.0);
+
+            //display output
+            System.out.println("Your BMI is: " + bmi);
+
+            //interpret BMI
+            if (bmi < 18.5 ) {
+                System.out.print("Underweight");
+            }
+
+            else if (bmi >= 18.5 && bmi < 25) {
+                System.out.print("Normal");
+            }
+
+            else if (bmi >= 25 && bmi < 30) {
+                System.out.print("Overweight");
+            }
+
+            else if (bmi >= 30) {
+                System.out.print("Obese");
+            }
+
+            input.close();
+
     }
+
 }
+
+

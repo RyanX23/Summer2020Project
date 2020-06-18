@@ -1,4 +1,9 @@
 package com.company;
+
+//Ryan Xie
+// 06/16/2020
+//Challenge DataType
+
 import java.util.*;
 
 public class DataType {
