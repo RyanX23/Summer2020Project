@@ -8,8 +8,7 @@ package com.company;
 import java.util.*;
 
 public class Operators {
-
-    public static void main(String[] args) {
+        public static void main(String[] args) {
             Scanner scan = new Scanner(System.in);
             // meal price
             double mealCost = scan.nextDouble();
