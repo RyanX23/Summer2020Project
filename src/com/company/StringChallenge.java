@@ -1,4 +1,6 @@
 package com.company;
+//Ryan Xie
+/*String Challenge assignment for 6/21*/
 
 import java.util.*;
 
