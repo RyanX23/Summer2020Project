@@ -4,6 +4,14 @@ package com.company;
 // 06/16/2020
 //Challenge DataType
 
+//Declare Value of Integers
+// Declare second integer, double, and string variables
+// Reading, saving the integer, double, and String to the variables above
+// Print the sum of the integer variables
+// Print the sum of the two variables
+//Print out both strings
+
+
 import java.util.*;
 
 public class DataType {
