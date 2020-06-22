@@ -1,6 +1,9 @@
 package com.company;
 
-/*Import scanner
+/* RYAN XIE
+6/19/2020
+
+Import scanner
 Setup math equation
 Even numbers have no remainder when divided by 2
 Odd numbers have a remainder of 1 when divided by two
