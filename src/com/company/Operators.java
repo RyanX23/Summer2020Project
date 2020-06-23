@@ -3,6 +3,14 @@ package com.company;
 //Ryan Xie
 //6-17
 //Challenge Operators Assignment
+/*import scanner
+create meal price
+calculate tip percent and then calculate tax percent
+converts the values into percentages
+make calculation
+round calculation to the nearest dollar
+print total cost*/
+
 
 //Import scanner
 import java.util.*;
