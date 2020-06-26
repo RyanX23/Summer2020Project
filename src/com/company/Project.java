@@ -37,6 +37,10 @@ public class Project {
         int games = 0;
         int wins = 0;
         //do while to play again
+        System.out.println("|-------------------------|");
+        System.out.println("|    >>   Welcome   <<    |");
+        System.out.println("|  Ryan Xie, Josh Titens  |");
+        System.out.println("|-------------------------|");
         do {
             File file = new File("C:\\Users\\Ryan Xie\\IdeaProjects\\Summer2020\\src\\com\\company\\AA");
 
